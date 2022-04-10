@@ -90,7 +90,7 @@
           </h4>
           <p class="modal__para">
             I'm a 21 years
-            <b class="orange">frontend software engineer</b> living in Germany.I
+            <b class="orange">frontend software engineer</b> living in Germany. I
             am highly motivated with a strong passion for learning and building
             websites that provide a great <b class="orange">user experience.</b>
             <br />
@@ -161,8 +161,14 @@
             </div>
             <button id="contact__submit" class="form__submit">Send it my way</button>
           </form>
-         <div class="modal__overlay"></div>
+         <div class="modal__overlay modal__overlay--loading">
+           <i class="fas fa-spinner"></i>
+         </div>
+         <div class="modal__overlay modal__overlay--success">
+           Thanks for the message! Looking forward to speaking to you soon.
+         </div>
         </div>
+        <i class="fas fa-times modal__exit click"></i>
       </div>
     </section>
     <section id="projects">
