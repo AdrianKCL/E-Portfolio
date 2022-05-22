@@ -348,8 +348,8 @@ transform: scale(1);
     margin-bottom: 20px;
 }
 .form__submit{
-    background-color: #710117;
-    border: 2px solid #710117;
+    background-color: #DB1F48;
+    border: 2px solid #DB1F48;
     color: white;
     font-weight: 700;
     max-width: 240px;
@@ -362,8 +362,8 @@ transform: scale(1);
     background-color: transparent;
 }
 .form__submit:active{
-    border-color: #710117;
-    color: #710117;
+    border-color: #DB1F48;
+    color: #DB1F48;
 }
 .modal__overlay{
     top: 0;
