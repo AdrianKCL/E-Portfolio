@@ -372,7 +372,6 @@ display: none;
 align-items: center;
 justify-content: center;
 position: absolute;
-
 }
 .modal__overlay--loading{
     background-color: #242424;
@@ -389,7 +388,7 @@ position: absolute;
 }
 .modal__overlay--visible{
     z-index: 1;
-    display: flex;
+  display: flex;
 }
 .fa-spinner{
 animation: spinner 750ms infinite linear;
