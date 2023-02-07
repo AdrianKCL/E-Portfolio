@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adrian</title>
+    <title>Adrian Kiedrowicz</title>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" href="./assets/logo.svg" />
+    <link rel="icon" href="assets/logo.svg" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
       (function () {
@@ -23,7 +23,7 @@
     <section id="landing-page" onmousemove="moveBackground(event)">
       <nav>
         <figure>
-          <img id="personal-logo" src="./assets/logo.svg" alt="" />
+          <img id="personal-logo" src="./assets/logoon.png" alt="" />
         </figure>
         <ul class="nav__link--list">
           <li class="nav__link" onclick="toggleModal()">
@@ -50,7 +50,7 @@
           <li class="nav__link click" onclick="toggleContrast()">
             <a
               href="#"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              class="circle"
             >
               <i class="fas fa-adjust"></i
             ></a>
@@ -59,13 +59,12 @@
       </nav>
       <header class="header">
         <div class="header__content">
-          <h1 class="title">Hey</h1>
-          <h1 class="title orange">I'm Adrian.</h1>
+          <h1 class="subheading">Hi, my name is</h1>
+          <h1 class="heading">Adrian.</h1>
+          <h1 class="below__heading blue">Frontend Developer</h1>
           <p class="header__para">
-            I'm a <b class="orange">Frontend Software Engineer</b> with a strong
-            passion for building web applications with great user experiences.
-            <br />
-            Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b>
+            I am passionate about building clean and functional web applications with modern frameworks such as React and Tailwind.
+            Here's a bit more <b class="blue click" onclick="toggleModal()">about me.</b>
           </p>
           <div class="social__list">
             <a
@@ -95,20 +94,20 @@
             Here's a bit about me.
           </h3>
           <h4 class="modal__sub-title modal__sub-title--about">
-            Frontend Software Engineer.
+            Frontend Developer.
           </h4>
           <p class="modal__para">
-            I'm a 21 years
-            <b class="orange">frontend software engineer</b> living in Germany. I
+            I'm a 22 years
+            <b class="blue">frontend developer</b> living in Germany. I
             am highly motivated with a strong passion for learning and building
-            websites that provide a great <b class="orange">user experience.</b>
+            websites that provide a great <b class="blue">user experience.</b>
             <br />
             I currently solve difficult engineering problems by enhancing my
             understanding of difficult programming concepts including
-            <b class="orange"
+            <b class="blue"
               >responsive website development, CSS layout, Promises,</b
             >
-            and <b class="orange">API requests.</b>
+            and <b class="blue">API requests.</b>
           </p>
           <div class="modal__languages">
             <figure class="modal__language">
@@ -193,7 +192,7 @@
       <div class="container">
         <div class="row">
           <h1 class="section__title">
-            Here are some of my <span class="orange">projects</span>
+            Here are some of my <span class="blue">projects</span>
           </h1>
           <ul class="project__list">
             <li class="project">
@@ -285,6 +284,7 @@
     <footer>
       <div class="container">
         <div class="row footer__row">
+          
           <figure>
             <img class="footer__logo--img" src="./assets/logo.svg" alt="" />
           </figure>
@@ -292,25 +292,20 @@
             <a
               href="github.com/AdrianKCL" target="_blank"
               class="footer__social--link link__hover-effect link__hover-effect--white"
-              >GitHub</a
+              >Projects</a
             >
             <a
               href="https://www.linkedin.com/in/adrian-kiedrowicz-638676236/" target="_blank"
               class="footer__social--link link__hover-effect link__hover-effect--white"
-              >Linkedin</a
+              >External</a
             >
             <a
               href="#"
               class="footer__social--link link__hover-effect link__hover-effect--white" onclick="toggleModal()"
-              >Contact</a
+              >information</a
             >
-            <a
-              href="#"
-              class="footer__social--link link__hover-effect link__hover-effect--white"
-              >Resume</a
-            >
-          </div>
-          <div class="footer__copyright">Copyright &copy; 2022 Adrian</div>
+            
+          </div>         
         </div>
       </div>
     </footer>
