@@ -500,19 +500,19 @@ nav {
 footer {
   background-color: #242424;
   display: flex;
-  padding: 6% 0;
   position: relative;
 }
 .footer__row {
   display: flex;
-
   align-items: center;
+  justify-content: center;
 }
 .footer__logo--img {
   width: 70px;
-  filter: invert(1);
 }
-.footer__social--list {
+
+.footer__list {
+  padding: 50px 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
